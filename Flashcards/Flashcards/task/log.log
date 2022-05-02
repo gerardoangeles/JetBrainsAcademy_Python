@@ -1,0 +1,521 @@
+2022-04-04 01:23:28,826 - DEBUG - ['flashcards.py']
+2022-04-04 01:23:28,858 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:28,858 - DEBUG - exit
+2022-04-04 01:23:28,858 - DEBUG - Bye bye!
+2022-04-04 01:23:28,967 - DEBUG - ['flashcards.py']
+2022-04-04 01:23:28,983 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:28,983 - DEBUG - add
+2022-04-04 01:23:28,983 - DEBUG - The card:
+2022-04-04 01:23:28,983 - DEBUG - cat
+2022-04-04 01:23:28,983 - DEBUG - The definition of the card:
+2022-04-04 01:23:28,983 - DEBUG - meow
+2022-04-04 01:23:28,983 - DEBUG - The pair ("cat":"meow") has been added.
+2022-04-04 01:23:28,983 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:28,983 - DEBUG - add
+2022-04-04 01:23:28,983 - DEBUG - The card:
+2022-04-04 01:23:28,983 - DEBUG - cat
+2022-04-04 01:23:28,983 - DEBUG - The card "cat" already exists. Try again:
+2022-04-04 01:23:28,983 - DEBUG - dog
+2022-04-04 01:23:28,983 - DEBUG - The definition of the card:
+2022-04-04 01:23:28,983 - DEBUG - meow
+2022-04-04 01:23:28,983 - DEBUG - The definition "meow" already exists. Try again:
+2022-04-04 01:23:28,983 - DEBUG - woof
+2022-04-04 01:23:28,998 - DEBUG - The pair ("dog":"woof") has been added.
+2022-04-04 01:23:28,998 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:28,998 - DEBUG - ask
+2022-04-04 01:23:28,998 - DEBUG - How many times to ask?
+2022-04-04 01:23:28,998 - DEBUG - 2
+2022-04-04 01:23:28,998 - DEBUG - Print the definition of "dog":
+2022-04-04 01:23:29,014 - DEBUG - meow
+2022-04-04 01:23:29,014 - DEBUG - Wrong. The right answer is "woof", but your definition is correct for "cat".
+2022-04-04 01:23:29,014 - DEBUG - Print the definition of "dog":
+2022-04-04 01:23:29,014 - DEBUG - wapapapapow
+2022-04-04 01:23:29,014 - DEBUG - Wrong. The right answer is "woof".
+2022-04-04 01:23:29,014 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,014 - DEBUG - remove
+2022-04-04 01:23:29,014 - DEBUG - Which card?
+2022-04-04 01:23:29,014 - DEBUG - badger
+2022-04-04 01:23:29,014 - DEBUG - Can't remove "badger": there is no such card.
+2022-04-04 01:23:29,014 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,014 - DEBUG - remove
+2022-04-04 01:23:29,014 - DEBUG - Which card?
+2022-04-04 01:23:29,014 - DEBUG - cat
+2022-04-04 01:23:29,014 - DEBUG - The card has been removed.
+2022-04-04 01:23:29,014 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,014 - DEBUG - add
+2022-04-04 01:23:29,030 - DEBUG - The card:
+2022-04-04 01:23:29,030 - DEBUG - horse
+2022-04-04 01:23:29,030 - DEBUG - The definition of the card:
+2022-04-04 01:23:29,030 - DEBUG - neigh
+2022-04-04 01:23:29,061 - DEBUG - The pair ("horse":"neigh") has been added.
+2022-04-04 01:23:29,061 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,061 - DEBUG - export
+2022-04-04 01:23:29,076 - DEBUG - File name:
+2022-04-04 01:23:29,076 - DEBUG - animal_sounds.txt
+2022-04-04 01:23:29,076 - DEBUG - 2 cards have been saved.
+2022-04-04 01:23:29,076 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,076 - DEBUG - import
+2022-04-04 01:23:29,076 - DEBUG - File name:
+2022-04-04 01:23:29,076 - DEBUG - ghost_file.txt
+2022-04-04 01:23:29,076 - DEBUG - File not found.
+2022-04-04 01:23:29,076 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,076 - DEBUG - import
+2022-04-04 01:23:29,092 - DEBUG - File name:
+2022-04-04 01:23:29,092 - DEBUG - animal_sounds.txt
+2022-04-04 01:23:29,092 - DEBUG - 2 cards have been loaded.
+2022-04-04 01:23:29,092 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,092 - DEBUG - ask
+2022-04-04 01:23:29,092 - DEBUG - How many times to ask?
+2022-04-04 01:23:29,092 - DEBUG - 1
+2022-04-04 01:23:29,092 - DEBUG - Print the definition of "horse":
+2022-04-04 01:23:29,092 - DEBUG - neigh
+2022-04-04 01:23:29,108 - DEBUG - Correct!
+2022-04-04 01:23:29,108 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,108 - DEBUG - log
+2022-04-04 01:23:29,123 - DEBUG - File name:
+2022-04-04 01:23:29,123 - DEBUG - log.txt
+2022-04-04 01:23:29,280 - DEBUG - The log has been saved.
+2022-04-04 01:23:29,280 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,295 - DEBUG - exit
+2022-04-04 01:23:29,295 - DEBUG - Bye bye!
+2022-04-04 01:23:29,342 - DEBUG - ['flashcards.py']
+2022-04-04 01:23:29,342 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,342 - DEBUG - hardest card
+2022-04-04 01:23:29,342 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,342 - DEBUG - add
+2022-04-04 01:23:29,342 - DEBUG - The card:
+2022-04-04 01:23:29,342 - DEBUG - Canada
+2022-04-04 01:23:29,342 - DEBUG - The definition of the card:
+2022-04-04 01:23:29,342 - DEBUG - Ottawa
+2022-04-04 01:23:29,389 - DEBUG - The pair ("Canada":"Ottawa") has been added.
+2022-04-04 01:23:29,389 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,389 - DEBUG - add
+2022-04-04 01:23:29,389 - DEBUG - The card:
+2022-04-04 01:23:29,389 - DEBUG - Japan
+2022-04-04 01:23:29,389 - DEBUG - The definition of the card:
+2022-04-04 01:23:29,389 - DEBUG - Tokyo
+2022-04-04 01:23:29,389 - DEBUG - The pair ("Japan":"Tokyo") has been added.
+2022-04-04 01:23:29,389 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,405 - DEBUG - add
+2022-04-04 01:23:29,405 - DEBUG - The card:
+2022-04-04 01:23:29,405 - DEBUG - Poland
+2022-04-04 01:23:29,405 - DEBUG - The definition of the card:
+2022-04-04 01:23:29,405 - DEBUG - Warsaw
+2022-04-04 01:23:29,420 - DEBUG - The pair ("Poland":"Warsaw") has been added.
+2022-04-04 01:23:29,420 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:29,420 - DEBUG - ask
+2022-04-04 01:23:29,420 - DEBUG - How many times to ask?
+2022-04-04 01:23:29,420 - DEBUG - 100
+2022-04-04 01:23:29,420 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,420 - DEBUG - Washington
+2022-04-04 01:23:29,420 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,420 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,420 - DEBUG - Washington
+2022-04-04 01:23:29,420 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,420 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,420 - DEBUG - Washington
+2022-04-04 01:23:29,420 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,420 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,420 - DEBUG - Washington
+2022-04-04 01:23:29,420 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,420 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,420 - DEBUG - Washington
+2022-04-04 01:23:29,420 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,420 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,420 - DEBUG - Washington
+2022-04-04 01:23:29,420 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,451 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,451 - DEBUG - Washington
+2022-04-04 01:23:29,451 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,483 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,514 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,514 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,545 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,545 - DEBUG - Washington
+2022-04-04 01:23:29,545 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,561 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,576 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:29,576 - DEBUG - Washington
+2022-04-04 01:23:29,576 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:29,623 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,639 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,639 - DEBUG - Washington
+2022-04-04 01:23:29,639 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,655 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,655 - DEBUG - Washington
+2022-04-04 01:23:29,655 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,655 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,655 - DEBUG - Washington
+2022-04-04 01:23:29,655 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,655 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:29,670 - DEBUG - Washington
+2022-04-04 01:23:29,733 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:29,733 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,733 - DEBUG - Washington
+2022-04-04 01:23:29,795 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,873 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,936 - DEBUG - Washington
+2022-04-04 01:23:29,936 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:29,998 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:29,998 - DEBUG - Washington
+2022-04-04 01:23:30,326 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:30,326 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,326 - DEBUG - Washington
+2022-04-04 01:23:30,326 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,326 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,326 - DEBUG - Washington
+2022-04-04 01:23:30,326 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,326 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,373 - DEBUG - Washington
+2022-04-04 01:23:30,561 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,576 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,576 - DEBUG - Washington
+2022-04-04 01:23:30,576 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,576 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:30,811 - DEBUG - Washington
+2022-04-04 01:23:30,811 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:30,811 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,873 - DEBUG - Washington
+2022-04-04 01:23:30,936 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:30,936 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:30,936 - DEBUG - Washington
+2022-04-04 01:23:31,030 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:31,061 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:31,061 - DEBUG - Washington
+2022-04-04 01:23:31,061 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:31,108 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:31,108 - DEBUG - Washington
+2022-04-04 01:23:31,170 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:31,420 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:31,420 - DEBUG - Washington
+2022-04-04 01:23:31,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:31,514 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:31,514 - DEBUG - Washington
+2022-04-04 01:23:31,514 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:31,514 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:31,530 - DEBUG - Washington
+2022-04-04 01:23:31,530 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:31,530 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:31,530 - DEBUG - Washington
+2022-04-04 01:23:31,530 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:31,530 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,530 - DEBUG - Washington
+2022-04-04 01:23:31,545 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,545 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,545 - DEBUG - Washington
+2022-04-04 01:23:31,545 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,545 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:31,561 - DEBUG - Washington
+2022-04-04 01:23:31,561 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:31,561 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:31,561 - DEBUG - Washington
+2022-04-04 01:23:31,561 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:31,561 - DEBUG - Print the definition of "Poland":
+2022-04-04 01:23:31,561 - DEBUG - Washington
+2022-04-04 01:23:31,561 - DEBUG - Wrong. The right answer is "Warsaw".
+2022-04-04 01:23:31,561 - DEBUG - Print the definition of "Japan":
+2022-04-04 01:23:31,561 - DEBUG - Washington
+2022-04-04 01:23:31,561 - DEBUG - Wrong. The right answer is "Tokyo".
+2022-04-04 01:23:31,561 - DEBUG - Print the definition of "Canada":
+2022-04-04 01:23:31,561 - DEBUG - Washington
+2022-04-04 01:23:31,561 - DEBUG - Wrong. The right answer is "Ottawa".
+2022-04-04 01:23:31,561 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,561 - DEBUG - hardest card
+2022-04-04 01:23:31,576 - DEBUG - The hardest card is "Japan". You have 44 errors answering it.
+2022-04-04 01:23:31,576 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,592 - DEBUG - export
+2022-04-04 01:23:31,733 - DEBUG - File name:
+2022-04-04 01:23:31,733 - DEBUG - capitals.txt
+2022-04-04 01:23:31,733 - DEBUG - 3 cards have been saved.
+2022-04-04 01:23:31,811 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,811 - DEBUG - import
+2022-04-04 01:23:31,811 - DEBUG - File name:
+2022-04-04 01:23:31,811 - DEBUG - capitals.txt
+2022-04-04 01:23:31,811 - DEBUG - 3 cards have been loaded.
+2022-04-04 01:23:31,811 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,811 - DEBUG - hardest card
+2022-04-04 01:23:31,811 - DEBUG - The hardest card is "Japan". You have 44 errors answering it.
+2022-04-04 01:23:31,811 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,811 - DEBUG - reset stats
+2022-04-04 01:23:31,811 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,811 - DEBUG - hardest card
+2022-04-04 01:23:31,811 - DEBUG - There are no cards with errors.
+2022-04-04 01:23:31,811 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,811 - DEBUG - exit
+2022-04-04 01:23:31,811 - DEBUG - Bye bye!
+2022-04-04 01:23:31,951 - DEBUG - ['flashcards.py', '--export_to=states.txt']
+2022-04-04 01:23:31,967 - DEBUG - states.txt
+2022-04-04 01:23:31,967 - DEBUG - 0 cards have been saved.
+2022-04-04 01:23:31,967 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:31,967 - DEBUG - add
+2022-04-04 01:23:31,967 - DEBUG - The card:
+2022-04-04 01:23:31,967 - DEBUG - Texas
+2022-04-04 01:23:31,967 - DEBUG - The definition of the card:
+2022-04-04 01:23:31,967 - DEBUG - Austin
+2022-04-04 01:23:32,030 - DEBUG - The pair ("Texas":"Austin") has been added.
+2022-04-04 01:23:32,030 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,030 - DEBUG - add
+2022-04-04 01:23:32,030 - DEBUG - The card:
+2022-04-04 01:23:32,030 - DEBUG - Florida
+2022-04-04 01:23:32,030 - DEBUG - The definition of the card:
+2022-04-04 01:23:32,030 - DEBUG - Tallahassee
+2022-04-04 01:23:32,076 - DEBUG - The pair ("Florida":"Tallahassee") has been added.
+2022-04-04 01:23:32,076 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,076 - DEBUG - add
+2022-04-04 01:23:32,076 - DEBUG - The card:
+2022-04-04 01:23:32,076 - DEBUG - California
+2022-04-04 01:23:32,076 - DEBUG - The definition of the card:
+2022-04-04 01:23:32,076 - DEBUG - Sacramento
+2022-04-04 01:23:32,170 - DEBUG - The pair ("California":"Sacramento") has been added.
+2022-04-04 01:23:32,170 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,170 - DEBUG - ask
+2022-04-04 01:23:32,170 - DEBUG - How many times to ask?
+2022-04-04 01:23:32,170 - DEBUG - 3
+2022-04-04 01:23:32,170 - DEBUG - Print the definition of "Florida":
+2022-04-04 01:23:32,170 - DEBUG - Austin
+2022-04-04 01:23:32,170 - DEBUG - Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".
+2022-04-04 01:23:32,170 - DEBUG - Print the definition of "Florida":
+2022-04-04 01:23:32,170 - DEBUG - Austin
+2022-04-04 01:23:32,170 - DEBUG - Wrong. The right answer is "Tallahassee", but your definition is correct for "Texas".
+2022-04-04 01:23:32,170 - DEBUG - Print the definition of "California":
+2022-04-04 01:23:32,170 - DEBUG - Austin
+2022-04-04 01:23:32,170 - DEBUG - Wrong. The right answer is "Sacramento", but your definition is correct for "Texas".
+2022-04-04 01:23:32,170 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,170 - DEBUG - exit
+2022-04-04 01:23:32,170 - DEBUG - states.txt
+2022-04-04 01:23:32,186 - DEBUG - 3 cards have been saved.
+2022-04-04 01:23:32,217 - DEBUG - Bye bye!
+2022-04-04 01:23:32,264 - DEBUG - ['flashcards.py', '--import_from=states.txt']
+2022-04-04 01:23:32,264 - DEBUG - states.txt
+2022-04-04 01:23:32,264 - DEBUG - 3 cards have been loaded.
+2022-04-04 01:23:32,264 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,280 - DEBUG - remove
+2022-04-04 01:23:32,280 - DEBUG - Which card?
+2022-04-04 01:23:32,280 - DEBUG - Texas
+2022-04-04 01:23:32,280 - DEBUG - The card has been removed.
+2022-04-04 01:23:32,280 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,280 - DEBUG - remove
+2022-04-04 01:23:32,280 - DEBUG - Which card?
+2022-04-04 01:23:32,280 - DEBUG - Florida
+2022-04-04 01:23:32,280 - DEBUG - The card has been removed.
+2022-04-04 01:23:32,295 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,295 - DEBUG - ask
+2022-04-04 01:23:32,295 - DEBUG - How many times to ask?
+2022-04-04 01:23:32,295 - DEBUG - 2
+2022-04-04 01:23:32,295 - DEBUG - Print the definition of "California":
+2022-04-04 01:23:32,295 - DEBUG - Sacramento
+2022-04-04 01:23:32,295 - DEBUG - Correct!
+2022-04-04 01:23:32,295 - DEBUG - Print the definition of "California":
+2022-04-04 01:23:32,295 - DEBUG - Austin
+2022-04-04 01:23:32,295 - DEBUG - Wrong. The right answer is "Sacramento".
+2022-04-04 01:23:32,295 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,295 - DEBUG - exit
+2022-04-04 01:23:32,295 - DEBUG - states.txt
+2022-04-04 01:23:32,311 - DEBUG - 3 cards have been loaded.
+2022-04-04 01:23:32,311 - DEBUG - Bye bye!
+2022-04-04 01:23:32,342 - DEBUG - ['flashcards.py', '--export_to=states.txt', '--import_from=states.txt']
+2022-04-04 01:23:32,342 - DEBUG - states.txt
+2022-04-04 01:23:32,342 - DEBUG - 3 cards have been saved.
+2022-04-04 01:23:32,358 - DEBUG - states.txt
+2022-04-04 01:23:32,358 - DEBUG - 3 cards have been loaded.
+2022-04-04 01:23:32,358 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,358 - DEBUG - ask
+2022-04-04 01:23:32,358 - DEBUG - How many times to ask?
+2022-04-04 01:23:32,358 - DEBUG - 1
+2022-04-04 01:23:32,358 - DEBUG - Print the definition of "Texas":
+2022-04-04 01:23:32,358 - DEBUG - Austin
+2022-04-04 01:23:32,358 - DEBUG - Correct!
+2022-04-04 01:23:32,358 - DEBUG - Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+2022-04-04 01:23:32,358 - DEBUG - exit
+2022-04-04 01:23:32,358 - DEBUG - states.txt
+2022-04-04 01:23:32,358 - DEBUG - 3 cards have been saved.
+2022-04-04 01:23:32,373 - DEBUG - states.txt
+2022-04-04 01:23:32,373 - DEBUG - 3 cards have been loaded.
+2022-04-04 01:23:32,373 - DEBUG - Bye bye!
