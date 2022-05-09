@@ -1,0 +1,7 @@
+Spanish Translations:
+palabra
+
+Spanish Example:
+Cooperation is a key word here.
+En este sentido, la cooperación es una palabra clave.
+
